@@ -17,6 +17,7 @@ public class mousemove : MonoBehaviour
 
     void Update()
     {
+        //https://stackoverflow.com/questions/46078829/slowly-moving-gameobject-to-mouse-position for the mouse mechanic
         //every time mouse is pressed/clicked the object moves closer to the mouse
         if (Input.GetMouseButton(0))
         {
